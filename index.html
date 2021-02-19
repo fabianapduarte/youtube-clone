@@ -5,12 +5,74 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./fonts/Roboto/Roboto-Regular.ttf">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 
   <title>YouTube</title>
 </head>
 <body>
+  <header class="header-bg-light">
+    <div id="header-start" class="header-item">
+      <a href="#" class="link-icon">
+        <i class="material-icons">menu</i>
+      </a>
+
+      <div class="logo">
+        <div class="logo-img">
+          <img src="./img/logo/yt_logo_rgb_light.png" alt="YouTube">
+        </div>
+        <span>BR</span>
+      </div>
+    </div>
+
+    <div id="header-center" class="header-item">
+      <div class="search-bar">
+        <input type="text" name="search" id="search" placeholder="Pesquisar">
+        <div class="submit-icon">
+          <input type="submit" value="">
+          <i class="material-icons">search</i>
+        </div>  
+      </div>
+
+      <a href="#" class="link-icon">
+        <i class="material-icons">mic</i>
+      </a>
+    </div>
+
+    <div id="header-end" class="header-item">
+      <a href="#" class="link-icon">
+        <i class="material-icons">video_call</i>
+      </a>
+
+      <a href="#" class="link-icon">
+        <i class="material-icons">apps</i>
+      </a>
+
+      <a href="#" class="link-icon">
+        <i class="material-icons">notifications</i>
+      </a>
+
+      <a href="#">
+        <div class="user-icon">
+          F
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <!--<aside>
+    menu
+  </aside>
+
+  <main>
+    videos
+  </main>-->
+
   <script src="./js/main.js"></script>
 </body>
 </html>

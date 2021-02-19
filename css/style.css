@@ -1,0 +1,55 @@
+:root {
+  --background-light: rgb(249,249,249);
+  --background-header-light: rgb(255, 255, 255);
+  --border-light: rgb(204, 204, 204);
+  --icons-light: rgb(96,96,96);
+}
+
+body {
+  background-color: var(--background-light);
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 8px 16px;
+}
+
+.header-bg-light {
+  background-color: var(--background-header-light);
+}
+
+.header-item {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  margin-left: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.logo span {
+  margin-left: 2px;
+  font-size: 10px;
+}
+
+.link-icon {
+  color: var(--icons-light);
+  display: inline-flex;
+}
+
+.search-bar {
+  display: inline-flex;
+  border: 1px solid var(--border-light);
+}
